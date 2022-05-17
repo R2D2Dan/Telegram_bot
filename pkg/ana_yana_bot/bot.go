@@ -9,4 +9,5 @@ import (
 type Bot struct {
 	bot      *t_bot_api.BotAPI
 	messages config.Messages
+	api      string
 }
